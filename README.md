@@ -1,3 +1,3 @@
-# bhuwanupadhyay.dev_codes
+# Software Engineering Musings
 
-This repository contains code examples for Sofware Engineering Musings blog at: https://bhuwanupadhyay.dev
+This repository contains code examples for Sofware Engineering Musings youtube content at: https://youtube.com/@semusings
