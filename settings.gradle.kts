@@ -1,1 +1,3 @@
-rootProject.name = "bhuwanupadhyay.dev_codes"
+rootProject.name = "codes"
+
+include(":leetcode")
