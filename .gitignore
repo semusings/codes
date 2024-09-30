@@ -30,3 +30,4 @@ replay_pid*
 build
 
 !gradle/wrapper/gradle-wrapper.jar
+.idea
