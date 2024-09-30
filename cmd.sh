@@ -10,6 +10,24 @@ _z_1_setup_tools() {
     pre-commit install
 }
 
+_z_2_setup_repo() {
+    git submodule init
+    git submodule update --recursive --remote
+}
+
+_z_3_setup_site() {
+    cd semusings.dev
+    npm install -g pnpm
+    pnpm install
+    cd ..
+}
+
+_z_4_run_site() {
+    cd semusings.dev
+    pnpm dev
+    cd ..
+}
+
 ##################################################################################
 ##################################################################################
 z_function_names() {

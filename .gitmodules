@@ -1,4 +1,4 @@
 [submodule "semusings.dev"]
 	path = semusings.dev
-	url = git@github.com:semusings/semusings.dev.git
+	url = https://github.com/semusings/semusings.dev.git
 	branch = main
