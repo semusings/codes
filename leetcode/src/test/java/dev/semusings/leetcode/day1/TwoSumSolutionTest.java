@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 class TwoSumSolutionTest {
 
-  //@formatter:off
+    //@formatter:off
   private static Stream<Arguments> provider() {
     return Stream.of(
         Arguments.of(new int[]{2,7,11,15}, 9, new int[]{0, 1}),
@@ -18,12 +18,13 @@ class TwoSumSolutionTest {
   }
   //@formatter:on
 
-  @ParameterizedTest
-  @MethodSource("provider")
-  void testUsingSolution1(int[] nums, int target, int[] expected) {
-    int[] result = new TwoSumSolution1().twoSum(nums, target);
-    Assertions.assertArrayEquals(expected, result);
-  }
-
+    @ParameterizedTest
+    @MethodSource("provider")
+    void test(int[] nums, int target, int[] expected) {
+        Assertions.assertArrayEquals(expected, new _1_BasicApproach().twoSum(nums, target));
+        Assertions.assertArrayEquals(expected, new _2_UsingTwoPassMap().twoSum(nums, target));
+        Assertions.assertArrayEquals(expected, new _3_UsingOnePassMap().twoSum(nums, target));
+        Assertions.assertArrayEquals(expected, new _4_UsingTwoPointersApproach().twoSum(nums, target));
+    }
 
 }
