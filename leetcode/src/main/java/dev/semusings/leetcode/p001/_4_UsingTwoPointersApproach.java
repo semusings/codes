@@ -1,4 +1,4 @@
-package dev.semusings.leetcode.day1;
+package dev.semusings.leetcode.p001;
 
 import java.util.Arrays;
 
