@@ -6,7 +6,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 
-class TwoSumSolutionTest {
+class TwoSumTest {
 
     //@formatter:off
   private static Stream<Arguments> provider() {
