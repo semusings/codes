@@ -21,7 +21,8 @@ class LongestSubstringWithoutRepeatingCharactersTest {
     @ParameterizedTest
     @MethodSource("provider")
     void test(String s, int expected) {
-        Assertions.assertEquals(expected, new _1_BasicApproach().lengthOfLongestSubstring(s));
+        //Assertions.assertEquals(expected, new _1_BasicApproach().lengthOfLongestSubstring(s));
+        Assertions.assertEquals(expected, new _1_SlidingWindowWithHashSet().lengthOfLongestSubstring(s));
     }
 
 }
