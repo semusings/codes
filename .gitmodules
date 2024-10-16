@@ -2,7 +2,3 @@
 	path = semusings.dev
 	url = https://github.com/semusings/semusings.dev.git
 	branch = main
-[submodule "cv"]
-	path = cv
-	url = git@github.com:semusings/cv.git
-	branch = main
