@@ -11,6 +11,7 @@ _z_1_setup_tools() {
 }
 
 _z_2_setup_repo() {
+    git submodule sync
     git submodule init
     git submodule update --recursive --remote
 }
