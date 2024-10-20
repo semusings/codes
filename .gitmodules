@@ -1,4 +1,8 @@
 [submodule "semusings.dev"]
 	path = semusings.dev
-	url = https://github.com/semusings/semusings.dev.git
+	url = git@github.com:semusings/semusings.dev.git
+	branch = main
+[submodule "pasal"]
+	path = pasal
+	url = git@github.com:semusings/pasal.git
 	branch = main
